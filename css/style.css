@@ -1,0 +1,156 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  overflow: hidden;
+}
+
+header {
+  width: 100%;
+  height: 100px;
+  background-color: rgb(0, 0, 0);
+  padding: 20px;
+  position: absolute;
+  top: 0;
+  padding-top: 40px;
+  padding-left: 18px;
+}
+
+header a {
+  text-decoration: none;
+  margin-right: 80px;
+  font-size: 18px;
+  letter-spacing: 1px;
+  font-family: sans-serif;
+  color: white;
+  margin-left: 12px;
+}
+
+header .section {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 50px;
+}
+
+.banner-container {
+  margin-top: 100px;
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(135deg, #594fd8, #d37284),
+    url(/images/backgound\ image.jpg);
+  display: flex;
+  align-items: center;
+}
+
+.banner-container .container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
+.left {
+  width: 600px;
+}
+
+.left h1 {
+  margin: 0;
+  color: white;
+  font-size: 40px;
+  font-weight: 600;
+  text-shadow: 12px 18px 15px rgba(0, 0, 0, 0.2);
+}
+
+.left p {
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  color: rgb(31, 31, 30);
+  margin-top: 20px;
+  line-height: 28px;
+}
+
+.left button {
+  color: #ec69e6;
+  background-color: #fff;
+  border: none;
+  padding: 12px 50px;
+  border-radius: 6px;
+  margin-top: 18px;
+  font-weight: bold;
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.319);
+}
+
+/* right side */
+
+.right {
+  width: 400px;
+  background-color: #ffffff;
+  border-radius: 15px;
+  padding: 40px;
+}
+
+.right h4 {
+  font-size: -20px;
+  width: 300px;
+  margin: auto;
+  margin-bottom: 30px;
+  color: rgb(0, 0, 0);
+}
+.input-group {
+  width: 300px;
+  margin: 30px auto;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+.input-group label {
+  color: rgb(110, 110, 110);
+  position: absolute;
+  font-size: 14px;
+  top: 10px;
+  transition: 0.4s ease-in-out;
+  font-weight: 400;
+}
+.input-group input {
+  padding: 4px;
+  margin-top: 8px;
+  border: none;
+  margin-top: 5px;
+  outline: none;
+  border-bottom: 1px solid #c9c9c9;
+}
+.input-group input:focus ~ label {
+  color: #746aff;
+  top: -10px;
+  font-size: 12px;
+}
+.submit-button {
+  color: white;
+  background-color: #746aff;
+  border: none;
+  padding: 10px 22px;
+  margin-top: 15px;
+  border-radius: 5px;
+  font-weight: 300;
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.319);
+}
+.submit-button:hover {
+  background-color: #ec69e6;
+}
+
+.right:hover {
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.319);
+  animation-duration: 5s;
+}
+
+.left h1 {
+}
+
+.left button:hover {
+  background-color: #ffb4ec;
+  color: #6960e9;
+  animation-duration: 1.2s;
+}

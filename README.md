@@ -10,5 +10,6 @@ Submit button
 Simple CSS styling
 
 -*Technologies Used*
+
 HTML5
 CSS3
